@@ -9,6 +9,8 @@ import { AppStyled } from './Components/Styles/App.styled';
 
 export default function App() {
   return (
+    <>
+    <Header />
     <AppStyled>
       {/* 
       header
@@ -21,12 +23,12 @@ export default function App() {
       contact
       footer 
       */}
-      <Header />
       <Hero />
       <Portfolio />
       <Works />
       <Testimonials />
       <Contact />
     </AppStyled>
+    </>
   );
 }
