@@ -1,4 +1,4 @@
-import { AboutStyled } from '../Styles/About.styled';
+import { AboutStyled } from './About.styled';
 
 export default function About() {
   return (

@@ -1,4 +1,4 @@
-import { ContactStyled } from '../Styles/Contact.styled';
+import { ContactStyled } from './Contact.styled';
 import Footer from '../Footer/Footer'
 
 export default function Contact() {

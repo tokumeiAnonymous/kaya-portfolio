@@ -1,4 +1,4 @@
-import { WorksStyled } from '../Styles/Works.styled';
+import { WorksStyled } from './Works.styled';
 
 export default function Works() {
   return (
