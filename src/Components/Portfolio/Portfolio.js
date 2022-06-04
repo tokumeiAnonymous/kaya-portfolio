@@ -1,8 +1,8 @@
-import { PortfolioStyled } from '../Styles/Portfolio.styled';
+import { PortfolioStyled } from './Portfolio.styled';
 
 export default function Portfolio() {
   return (
-    <PortfolioStyled>
+    <PortfolioStyled id='portfolio'>
       
     </PortfolioStyled>
   )

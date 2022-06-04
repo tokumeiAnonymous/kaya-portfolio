@@ -1,8 +1,8 @@
-import { HeroStyled } from '../Styles/Hero.styled';
+import { HeroStyled } from './Hero.styled';
 
 export default function Hero() {
   return (
-    <HeroStyled>
+    <HeroStyled id='hero'>
       
     </HeroStyled>
   )

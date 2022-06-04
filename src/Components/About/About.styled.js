@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 
-export const TestimonialsStyled = styled.section`
+export const AboutStyled = styled.section`
     background-color: lightblue;
 `
