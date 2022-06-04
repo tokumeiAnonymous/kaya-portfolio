@@ -34,14 +34,4 @@ export const HeaderStyled = styled.header`
         list-style-type: none;
         margin-right: 1rem;
     }
-
-    a {
-        color: white;
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: ${ ({theme}) => theme.colors.yellow};
-        text-decoration: underline;
-    }
 `
