@@ -1,9 +1,9 @@
-const lightTheme = {
+const darkTheme = {
     colors: {
-        main: '',
+        main: 'hsl(210, 11%, 15%)',
         secondary: '',
-        yellow: '',
+        yellow: 'hsl(37, 100%, 63%)',
     }
 }
 
-export { lightTheme };
+export { darkTheme };

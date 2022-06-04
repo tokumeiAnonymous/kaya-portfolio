@@ -1,7 +1,7 @@
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
+import About from './Components/About/About';
 import Portfolio from './Components/Portfolio/Portfolio';
-import Works from './Components/Works/Works';
 import Contact from './Components/Contact/Contact';
 import { AppStyled } from './Components/Styles/App.styled';
 import { ThemeProvider } from 'styled-components';
@@ -28,8 +28,8 @@ export default function App() {
       footer 
       */}
         <Hero />
+        <About />
         <Portfolio />
-        <Works />
         <Contact />
       </AppStyled>
     </ThemeProvider>

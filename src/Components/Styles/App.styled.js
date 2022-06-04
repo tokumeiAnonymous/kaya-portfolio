@@ -6,6 +6,7 @@ export const AppStyled = styled.div`
     top: 8vh;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
+    scroll-behavior: smooth;
     /* for firefox */
     scrollbar-width: none;
     /* for other browsers */
