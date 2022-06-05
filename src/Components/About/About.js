@@ -12,9 +12,10 @@ export default function About() {
       <p>
         Hello, My name is Jerome Taguba.
         I am a Mechanical Engineer by profession.
-
-        I have created multiple projects.
-        Check it out below.
+        I'm a self-taught software developer.
+        There's so much thing to learn I'm excited.
+        I also love creating 3d models.
+        You can check out some of my projects below.
       </p>
       <div className="skills">
         <h2>MY SKILLS</h2>
@@ -22,18 +23,18 @@ export default function About() {
           What My Programming Skills Includes?
         </h1>
         <div>
-          <i className="devicon-html5-plain-wordmark colored"></i>
-          <i className="devicon-css3-plain colored"></i>
-          <i class="devicon-javascript-plain colored"></i>
-          <i className="devicon-nodejs-plain colored"></i>
-          <i className="devicon-react-original-wordmark colored"></i>
-          <i className="devicon-github-original-wordmark colored"></i>
-          <i className="devicon-git-plain-wordmark colored"></i>
-          <i className="devicon-java-plain-wordmark colored"></i>
-          <i className="devicon-firebase-plain-wordmark colored"></i>
-          <i className="devicon-mongodb-plain-wordmark colored"></i>
-          <i className="devicon-vscode-plain colored"></i>
-          <i className="devicon-blender-original-wordmark colored"></i>
+          <i className="devicon-html5-plain-wordmark colored"> </i>
+          <i className="devicon-css3-plain colored"> </i>
+          <i className="devicon-javascript-plain colored"> </i>
+          <i className="devicon-nodejs-plain colored"> </i>
+          <i className="devicon-react-original-wordmark colored"> </i>
+          <i className="devicon-github-original-wordmark colored"> </i>
+          <i className="devicon-git-plain-wordmark colored"> </i>
+          <i className="devicon-java-plain-wordmark colored"> </i>
+          <i className="devicon-firebase-plain-wordmark colored"> </i>
+          <i className="devicon-mongodb-plain-wordmark colored"> </i>
+          <i className="devicon-vscode-plain colored"> </i>
+          <i class="devicon-blender-original colored"> </i>
         </div>
       </div>
     </AboutStyled>

@@ -12,6 +12,10 @@ export const HeroStyled = styled.section`
         width: 80%;
         padding-bottom: 2rem;
         text-align: center;
+
+        div {
+            margin-bottom: 1rem;
+        }
     }
 
     h2 {

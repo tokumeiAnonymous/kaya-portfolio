@@ -29,5 +29,6 @@ export const AboutStyled = styled.section`
 
     .skills div i {
         font-size: 2rem;
+        text-align: center;
     }
 `
