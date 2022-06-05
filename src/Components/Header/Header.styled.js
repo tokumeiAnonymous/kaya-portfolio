@@ -30,7 +30,7 @@ export const HeaderStyled = styled.header`
 
     ul {
         display: flex;
-        gap: 1rem;
+        gap: 0.5rem;
         list-style-type: none;
         margin-right: 1rem;
     }
