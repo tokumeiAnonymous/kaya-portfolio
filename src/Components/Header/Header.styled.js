@@ -12,6 +12,7 @@ export const HeaderStyled = styled.header`
     margin: 0;
     color: white;
     height: 8vh;
+    border-bottom: 1px solid black;
 
     .logo {
         margin-right: auto;
