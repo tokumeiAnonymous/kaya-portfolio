@@ -8,14 +8,11 @@ export default function Hero() {
       <div className='hero-wrapper'>
         <h2>Hello there!<br />I'm 
           <span>
-            Jerome Taguba  
+            Jerome Taguba
           </span>
-        </h2>
-        <div>
-          I code and create beautiful simple things.
           <br />
-          I love what I do. 
-        </div>
+            I'm a
+        </h2>
         <h1>
         <Typewriter 
           options={{
@@ -25,6 +22,11 @@ export default function Hero() {
           }}
         />
         </h1>
+        <div>
+          I code and create beautiful simple things.<br />
+          I'm passionate with what I do. <br />
+          Let's build something together!
+        </div>
         <a href='#contact'>
           Hire me
         </a>

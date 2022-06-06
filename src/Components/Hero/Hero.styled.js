@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HeroStyled = styled.section`
-    background-color: ${ ({theme}) => theme.colors.secondary };
+    background-color: ${ ({theme}) => theme.colors.main};
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,6 +12,10 @@ export const HeroStyled = styled.section`
         width: 80%;
         padding-bottom: 2rem;
         text-align: center;
+
+        div {
+            margin-bottom: 1rem;
+        }
     }
 
     h2 {
