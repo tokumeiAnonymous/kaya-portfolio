@@ -11,28 +11,28 @@ export default function Header() {
       <ul className='nav-links'>
         <li>
           <LinkStyled 
-            hoverColor={({theme}) => theme.colors.yellow} 
+            color={({theme}) => theme.colors.yellow} 
             href='#hero'>
               Home
           </LinkStyled>
         </li>
         <li>
           <LinkStyled 
-            hoverColor={({theme}) => theme.colors.yellow} 
+            color={({theme}) => theme.colors.yellow} 
             href='#about'>
               About
           </LinkStyled>
         </li>
         <li>
           <LinkStyled 
-            hoverColor={({theme}) => theme.colors.yellow} 
+            color={({theme}) => theme.colors.yellow} 
             href='#portfolio'>
               Works
           </LinkStyled>
         </li>
         <li>
           <LinkStyled 
-            hoverColor={({theme}) => theme.colors.yellow} 
+            color={({theme}) => theme.colors.yellow} 
             href='#contact'>
               Contact
           </LinkStyled>

@@ -5,7 +5,7 @@ export const LinkStyled = styled.a`
     text-decoration: none;
 
     &:hover {
-        color: ${ ({hoverColor}) => hoverColor || 'white' };
         text-decoration: underline;
+        text-shadow: 0 0 0.3rem ${ ({color}) => color || 'black' }
     }
 `
