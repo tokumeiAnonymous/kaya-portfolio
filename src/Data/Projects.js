@@ -2,7 +2,7 @@ const web = [
     {
         id: 0,
         name: 'Meme Builder',
-        img: './Assets/meme-builder.png',
+        img: './ProjectImage/meme-builder.png',
         description: `This is a meme builder where
         you can create multiple textboxes and
         place them within the image.`,
@@ -12,7 +12,7 @@ const web = [
     {
         id: 1,
         name: 'The North Remembers',
-        img: './Assets/memory-game.png',
+        img: './ProjectImage/memory-game.png',
         description: `A simple memory game app using Game of thrones 
         Honorable houses and Respectable groups`,
         live: 'https://tokumeianonymous.github.io/memory-game/',
@@ -24,7 +24,7 @@ const mobile = [
     {
         id: 0,
         name: 'Test 1',
-        img: './Assets/meme-builder.png',
+        img: './ProjectImage/meme-builder.png',
         description: `This is a meme builder where
         you can create multiple textboxes and
         place them within the image.`,
@@ -37,7 +37,7 @@ const game = [
     {
         id: 0,
         name: 'Test 2',
-        img: './Assets/meme-builder.png',
+        img: './ProjectImage/meme-builder.png',
         description: `This is a meme builder where
         you can create multiple textboxes and
         place them within the image.`,

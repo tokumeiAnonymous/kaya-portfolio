@@ -10,11 +10,8 @@ export const ButtonStyled = styled.button`
     padding-right: 1rem;
     cursor: pointer;
 
-    &:hover {
-        background-color: ${ ({fontColor}) => fontColor || 'white' };
-    }
-
-    &.active {
+    &.active, &:hover {
+        text-shadow: 0 0 0.3rem ${ ({fontColor}) => fontColor || 'black' };
         background-color: white;
     }
 `
