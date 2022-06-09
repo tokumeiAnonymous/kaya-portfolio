@@ -37,20 +37,4 @@ export const HeroStyled = styled.section`
             color: inherit;
         }
     }
-
-    a {
-        text-decoration: none;
-        color: ${ ({theme}) => theme.colors.secondary };
-        font-weight: 500;
-        font-size: 1.5rem;
-        width: 120px;
-        padding: 5px 2rem;
-        background-color: ${ ({theme}) => theme.colors.yellow };
-        border-radius: 1.5rem;
-        border: 2px solid ${ ({theme}) => theme.colors.yellow };
-    }
-
-    a:hover {
-        background-color: ${ ({theme}) => theme.colors.yellowHover };
-    }
 `

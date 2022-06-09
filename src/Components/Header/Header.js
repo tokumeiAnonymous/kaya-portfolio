@@ -9,30 +9,30 @@ export default function Header() {
         <img src='./Assets/kayalogo.svg' alt="Kaya" />
       </a>
       <ul className='nav-links'>
-        <li>
+      <li>
           <LinkStyled 
-            color={({theme}) => theme.colors.yellow} 
+            fontColor={({theme}) => theme.colors.yellow} 
             href='#hero'>
               Home
           </LinkStyled>
         </li>
         <li>
           <LinkStyled 
-            color={({theme}) => theme.colors.yellow} 
+            fontColor={({theme}) => theme.colors.yellow} 
             href='#about'>
               About
           </LinkStyled>
         </li>
         <li>
           <LinkStyled 
-            color={({theme}) => theme.colors.yellow} 
+            fontColor={({theme}) => theme.colors.yellow} 
             href='#portfolio'>
               Works
           </LinkStyled>
         </li>
         <li>
           <LinkStyled 
-            color={({theme}) => theme.colors.yellow} 
+            fontColor={({theme}) => theme.colors.yellow} 
             href='#contact'>
               Contact
           </LinkStyled>
