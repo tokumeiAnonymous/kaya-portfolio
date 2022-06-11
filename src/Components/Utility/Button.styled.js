@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ButtonStyled = styled.button`
     color: ${ ({fontColor}) => fontColor || 'black' };
-    background-color: ${ ({bg}) => bg || 'white' };
+    background-color: ${({theme}) => theme.colors.main};
     border: none;
     font-size: 1.5rem;
     border-radius: 0.75rem;
@@ -12,6 +12,6 @@ export const ButtonStyled = styled.button`
 
     &.active, &:hover {
         text-shadow: 0 0 0.3rem ${ ({fontColor}) => fontColor || 'black' };
-        background-color: white;
+        background-color: ${ ({bg}) => bg || 'white' };
     }
 `
