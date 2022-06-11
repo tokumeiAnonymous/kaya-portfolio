@@ -1,11 +1,15 @@
 import styled from 'styled-components';
 
 export const LinkStyled = styled.a`
-    color: ${ ({color}) => color || 'white' };
+    color: ${ ({fontColor}) => fontColor || 'white' };
+    background-color: ${ ({bg}) => bg || 'none' };
+    padding-left: ${ ({padding}) => padding || '0' };
+    padding-right: ${ ({padding}) => padding || '0' };
     text-decoration: none;
+    border-radius: 1rem;
 
     &:hover {
-        color: ${ ({hoverColor}) => hoverColor || 'white' };
         text-decoration: underline;
+        text-shadow: 0 0 0.3rem ${ ({fontColor}) => fontColor || 'black' };
     }
 `

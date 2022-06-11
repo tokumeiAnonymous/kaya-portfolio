@@ -7,4 +7,6 @@ export const H2Styled = styled.h2`
     padding: 0.5rem 1rem;
     border-radius: 1rem;
     width: fit-content;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 `
