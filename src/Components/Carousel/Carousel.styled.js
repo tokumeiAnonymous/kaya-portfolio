@@ -40,6 +40,13 @@ const CarouselStyled = styled.div`
     align-items: center;
     height: 100%;
    }
+
+   .indicator {
+      display: flex;
+      width: fit-content;
+      margin-top: 0.25rem;
+      gap: 0.25rem;
+   }
 `
 
 export { CarouselStyled }
