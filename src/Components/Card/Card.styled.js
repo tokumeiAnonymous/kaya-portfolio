@@ -3,19 +3,25 @@ import styled from 'styled-components';
 export const CardStyled = styled.div`
     display: flex;
     flex-direction: column;
-    width: fit-content;
     height: 100%;
+    width: 300px;
     border-radius: 1rem;
     align-items: center;
-    justify-content: space-between;
+    gap: 1rem;
+    justify-content: center;
     background-color: ${({theme}) => theme.colors.main};
 
     img {
-        width: 300px;
+        width: 100%;
         border-radius: 1rem 1rem 0 0;
     }
 
-    div {
-        width: 300px;
+    .detail-wrapper {
+        width: 90%;
+    }
+
+    a {
+        margin-right: 1rem;
+        text-decoration: none;
     }
 `

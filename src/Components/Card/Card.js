@@ -1,4 +1,5 @@
 import { CardStyled } from "./Card.styled";
+import { LinkStyled } from '../Utility/Link.styled';
 
 export default function Card({ project: {name, img, description, code, live }}) {
   return (
@@ -9,12 +10,20 @@ export default function Card({ project: {name, img, description, code, live }}) 
         <p>
           {description}
         </p>
-        <a href={code} rel='noreferrer' target='_blank'>
+        <LinkStyled
+         href={code} 
+         fontColor={({theme}) => theme.colors.yellow}
+         rel='noreferrer' 
+         target='_blank'>
           Peruse the code
-        </a>
-        <a href={live} rel='noreferrer' target='_blank'>
+        </LinkStyled>
+        <LinkStyled
+         href={live} 
+         fontColor={({theme}) => theme.colors.yellow}
+         rel='noreferrer' 
+         target='_blank'>
           See it live
-        </a>
+        </LinkStyled>
       </div>
     </CardStyled>
   )

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const CarouselStyled = styled.div`
    position: relative;
-   height: 70vh;
+   height: fit-content;
    background-color: ${({theme}) => theme.colors.secondary};
    border-radius: 1rem;
    padding: 1rem;
@@ -15,7 +15,7 @@ const CarouselStyled = styled.div`
     position: absolute;
     cursor: pointer;
     height: 70px;
-    top: 40%;
+    top: 50%;
     transform: translateY(-50%);
     opacity: 0.1;
     transition: all 0.5s ease;
