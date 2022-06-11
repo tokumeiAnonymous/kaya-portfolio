@@ -7,7 +7,7 @@ export const PortfolioStyled = styled.section`
     background-color: ${({theme}) => theme.colors.main};
     color: white;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 
     h1 {
         margin: 0.2rem;

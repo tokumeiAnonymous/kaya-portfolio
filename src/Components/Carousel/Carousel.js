@@ -12,12 +12,20 @@ export default function Carousel({ projects }) {
     setCurrent(0);
   }, [projects])
 
+  useEffect( () => {
+    const intervalId  = setInterval(() => {
+      setCurrent( prev => prev === length - 1 ? 0 : prev + 1);
+    }, 3000)
+    // need to clear interval because setInterval will stack
+    return () => clearInterval(intervalId);
+  },[length])
+
   function nextSlide() {
-    setCurrent(current === length - 1 ? 0 : current + 1);
+    setCurrent( prev => prev === length - 1 ? 0 : prev + 1);
   }
 
   function prevSlide() {
-    setCurrent(current === 0 ? length - 1 : current - 1);
+    setCurrent(prev => prev === 0 ? length - 1 : prev - 1);
   }
 
   if (!Array.isArray(projects)) {
