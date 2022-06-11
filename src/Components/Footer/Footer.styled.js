@@ -5,5 +5,16 @@ export const FooterStyled = styled.footer`
     bottom: 0;
     height: 10vh;
     width: 100vw;
-    background-color: gray;
+    background-color: ${({theme}) => theme.colors.secondary};
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 1px hsla(0, 0%, 0%, 0.1);
+    
+    img {
+        width: 2rem;
+        height: 2rem;
+        margin: 0.5rem;
+    }
 `
