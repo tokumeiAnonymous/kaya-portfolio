@@ -17,6 +17,15 @@ const web = [
         Honorable houses and Respectable groups`,
         live: 'https://tokumeianonymous.github.io/memory-game/',
         code: 'https://github.com/tokumeiAnonymous/memory-game'
+    },
+    {
+        id: 2,
+        name: 'Shopp-e',
+        img: './ProjectImage/shopping-cart.png',
+        description: `A shoping cart asdf asdf asdf
+        asdf aasdf`,
+        live: 'https://tokumeianonymous.github.io/shopping-cart/',
+        code: 'https://github.com/tokumeiAnonymous/shopping-cart'
     }
 ]
 
