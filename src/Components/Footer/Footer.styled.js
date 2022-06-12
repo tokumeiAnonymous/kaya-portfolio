@@ -11,6 +11,7 @@ export const FooterStyled = styled.footer`
     justify-content: center;
     align-items: center;
     border-top: solid 1px hsla(0, 0%, 0%, 0.1);
+    color: hsla(0, 100%, 100%, 0.6);
     
     img {
         width: 2rem;
