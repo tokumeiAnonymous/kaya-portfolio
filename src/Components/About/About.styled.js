@@ -23,4 +23,13 @@ export const AboutStyled = styled.section`
     .skills > div > i {
         font-size: 2rem;
     }
+
+    @media only screen and (min-width: 960px) {
+        flex-direction: row;
+        align-items: center;
+
+        .skills > div > i {
+            font-size: 3rem;
+        }
+    }
 `
