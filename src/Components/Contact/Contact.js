@@ -32,6 +32,8 @@ export default function Contact() {
       .then(() => alert("Success!"))
       .catch(error => alert(error));
     
+      emailInput.current.value = '';
+      messageInput.current.value = '';
     setIsSentMessage(true);
   };
 
