@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CardStyled = styled.div`
-    position: absolute;    
+    display: flex;
 
     .card__wrapper {
         display: flex;
