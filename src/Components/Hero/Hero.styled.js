@@ -3,38 +3,61 @@ import styled from 'styled-components';
 export const HeroStyled = styled.section`
     background-color: ${ ({theme}) => theme.colors.main};
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    overflow: hidden;
 
-    .hero-wrapper {
-        width: 80%;
-        padding-bottom: 2rem;
-        text-align: center;
-
-        div {
-            margin-bottom: 1rem;
+    .left {
+        img {
+            background-color: ${ ({theme}) => theme.colors.secondary};
+            border-radius: 50%;
+            width: 80%;
+            max-width: 650px;
+            border:3px solid ${ ({theme}) => theme.colors.yellow};
         }
     }
 
-    h2 {
-        font-size: 1.5rem;
-    }
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
 
-    span {
-        color: ${ ({theme}) => theme.colors.yellow };
-    }
+        .hero-wrapper {
+            width: 80%;
+            padding-bottom: 2rem;
+            text-align: center;
 
-    span::before {
-        content: ' ';
-    }
+            div {
+                margin-bottom: 1rem;
+            }
+        }
 
-    h1 {
-        font-size: 2.5rem;
-        
+        h2 {
+            font-size: 1.5rem;
+        }
+
         span {
-            color: inherit;
+            color: ${ ({theme}) => theme.colors.yellow };
+        }
+
+        span::before {
+            content: ' ';
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            
+            span {
+                color: inherit;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 960px) {
+        .left {
+            display: none;
         }
     }
 `
