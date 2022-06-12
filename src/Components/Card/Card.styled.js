@@ -24,6 +24,14 @@ export const CardStyled = styled.div`
         margin-right: 1rem;
     }
 
+    @media only screen and (min-height: 740px) and (min-width: 960px) {
+        flex-direction: row;
+        img {
+            width: 500px;
+            border-radius: 1rem 0 0 1rem;
+        }
+    }
+
     @media only screen and (max-height: 740px) {
         flex-direction: row;
         img {
