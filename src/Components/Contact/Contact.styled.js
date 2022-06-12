@@ -26,10 +26,6 @@ export const ContactStyled = styled.section`
         align-items: center;
         justify-content: center;
     
-        h2 {
-        font-size: 30px;
-        }
-    
         form {
         width: 70%;
         height: 60%;
