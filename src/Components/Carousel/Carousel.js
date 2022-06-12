@@ -36,11 +36,10 @@ export default function Carousel({ projects }) {
     return null;
   }
 
-  // render the current last  quick fix for now because can't order absolute
+  // return all but only return with active class if index == current
   const projectList = projects.map((element, index) => {
     return <Card
       isActive={index === current}
-      index={index}
       key={element.name + index}
       project={element}
     />

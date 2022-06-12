@@ -1,11 +1,9 @@
 import { CardStyled } from "./Card.styled";
 import { LinkStyled } from '../Utility/Link.styled';
 
-export default function Card({ isActive, 
-  project: { name, img, description, code, live }, 
-  index}) {
+export default function Card({ isActive, project: { name, img, description, code, live } }) {
   return (
-    <CardStyled index={index}>
+    <CardStyled>
       <div className={isActive ? "card__wrapper active" : "card__wrapper"}>
         <img src={img} alt={name} />
         <div className='detail-wrapper'>
