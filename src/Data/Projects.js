@@ -50,26 +50,25 @@ const web = [
 const mobile = [
     {
         id: 0,
-        name: 'Test 1',
-        img: './ProjectImage/meme-builder.png',
-        description: `This is a meme builder where
-        you can create multiple textboxes and
-        place them within the image.`,
-        live: 'https://tokumeianonymous.github.io/meme-builder/',
-        code: 'https://github.com/tokumeiAnonymous/meme-builder'
+        name: 'Project Tracker',
+        img: './ProjectImage/under-construction.png',
+        description: `A project progress tracking app.It is 
+        fulfilling to marked done a task in your project and 
+        see its percentage complete go up.`,
+        live: 'https://tokumeianonymous.github.io/project-tracker-native/',
+        code: 'https://github.com/tokumeiAnonymous/project-tracker-native'
     }
 ]
 
 const game = [
     {
         id: 0,
-        name: 'Test 2',
-        img: './ProjectImage/meme-builder.png',
-        description: `This is a meme builder where
-        you can create multiple textboxes and
-        place them within the image.`,
-        live: 'https://tokumeianonymous.github.io/meme-builder/',
-        code: 'https://github.com/tokumeiAnonymous/meme-builder'
+        name: 'Tower Defence',
+        img: './ProjectImage/under-construction.png',
+        description: `A tower defence game built using unity.
+        Some of the models are created using blender.`,
+        live: 'https://tokumeianonymous.github.io/tower-defence/',
+        code: 'https://github.com/tokumeiAnonymous/tower-defence'
     }
 ]
 

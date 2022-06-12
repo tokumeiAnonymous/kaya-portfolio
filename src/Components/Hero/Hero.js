@@ -21,7 +21,7 @@ export default function Hero() {
           <h1>
             <Typewriter
               options={{
-                strings: ['Web Developer',],
+                strings: ['Web Developer', '3D Modeler'],
                 autoStart: true,
                 loop: true,
               }}

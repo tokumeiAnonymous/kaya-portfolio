@@ -23,6 +23,7 @@ export const HeroStyled = styled.section`
         justify-content: center;
         align-items: center;
         color: white;
+        width: 400px;
 
         .hero-wrapper {
             width: 80%;
