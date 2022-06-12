@@ -6,13 +6,12 @@ export const HeaderStyled = styled.header`
     position: fixed;
     z-index: 1;
     width: 100vw;
-    background-color: ${ ({theme}) => theme.colors.main};
+    background-color: ${ ({theme}) => theme.colors.secondary};
     padding-left: 1rem;
     padding-top: auto;
     margin: 0;
     color: white;
     height: 8vh;
-    border-bottom: 1px solid black;
 
     .logo {
         margin-right: auto;
