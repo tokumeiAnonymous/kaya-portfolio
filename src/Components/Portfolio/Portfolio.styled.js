@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const PortfolioStyled = styled.section`
-    position: relative;
     display: flex;
     width: 100%;
     flex-direction: column;
