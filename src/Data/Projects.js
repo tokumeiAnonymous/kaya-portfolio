@@ -50,7 +50,7 @@ const web = [
 const mobile = [
     {
         id: 0,
-        name: 'Project Tracker*',
+        name: '(Under Construction)',
         img: './ProjectImage/project-tracker.png',
         description: `A project progress tracking app. Mark
         task done and see your progress. Built using react-native.`,
@@ -62,7 +62,7 @@ const mobile = [
 const game = [
     {
         id: 0,
-        name: 'Tower Defence*',
+        name: '(Under construction)',
         img: './ProjectImage/tower-defence.png',
         description: `A tower defence game built using unity.
         Some of the models are created using blender.`,
