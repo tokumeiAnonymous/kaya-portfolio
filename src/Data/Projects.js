@@ -50,11 +50,10 @@ const web = [
 const mobile = [
     {
         id: 0,
-        name: 'Project Tracker',
-        img: './ProjectImage/under-construction.png',
-        description: `A project progress tracking app.It is 
-        fulfilling to marked done a task in your project and 
-        see its percentage complete go up.`,
+        name: 'Project Tracker*',
+        img: './ProjectImage/project-tracker.png',
+        description: `A project progress tracking app. Mark
+        task done and see your progress. Built using react-native.`,
         live: 'https://tokumeianonymous.github.io/project-tracker-native/',
         code: 'https://github.com/tokumeiAnonymous/project-tracker-native'
     }
@@ -63,8 +62,8 @@ const mobile = [
 const game = [
     {
         id: 0,
-        name: 'Tower Defence',
-        img: './ProjectImage/under-construction.png',
+        name: 'Tower Defence*',
+        img: './ProjectImage/tower-defence.png',
         description: `A tower defence game built using unity.
         Some of the models are created using blender.`,
         live: 'https://tokumeianonymous.github.io/tower-defence/',
