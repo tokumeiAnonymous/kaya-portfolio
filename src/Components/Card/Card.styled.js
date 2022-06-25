@@ -10,6 +10,25 @@ export const CardStyled = styled.div`
     gap: 1rem;
     justify-content: center;
     background-color: ${({theme}) => theme.colors.main};
+    animation: slide-left 500ms forwards, fade-in 500ms forwards;
+
+    @keyframes fade-in {
+      0% {
+          opacity: 0;
+        }
+      100% {
+        opacity: 1;
+        }
+    }
+
+    @keyframes slide-left {
+      0% {
+        transform: translateX(-50%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
 
     img {
         width: 300px;

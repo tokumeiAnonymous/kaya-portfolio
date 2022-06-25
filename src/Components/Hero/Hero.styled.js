@@ -7,7 +7,26 @@ export const HeroStyled = styled.section`
     align-items: center;
     overflow: hidden;
 
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+          }
+        100% {
+          opacity: 1;
+          }
+      }
+
+      @keyframes slide-down {
+        0% {
+          transform: translateY(-100%);
+        }
+        100% {
+          transform: translateY(0%);
+        }
+      }
+
     .left {
+      animation: slide-down 500ms forwards, fade-in 500ms forwards;
         img {
             background-color: ${ ({theme}) => theme.colors.secondary};
             border-radius: 50%;
